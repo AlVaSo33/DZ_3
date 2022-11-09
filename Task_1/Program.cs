@@ -23,7 +23,7 @@ int GetNumberPalindrome(int number)
     return (number);
 }
 
-Console.WriteLine("Введите число:");
+Console.WriteLine("Введите пятизначное число:");
 int number = int.Parse(Console.ReadLine()!);
 
 int Meaning = GetNumberPalindrome(number);
